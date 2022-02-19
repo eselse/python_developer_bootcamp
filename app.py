@@ -1,0 +1,1 @@
+print('Ok, let\'s go!')
