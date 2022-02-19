@@ -1,1 +1,107 @@
-print('Ok, let\'s go!')
+# cmd + s -> save the file
+# ctrl + alt + n -> run code
+# This function does this and that funciton does that
+'''This is docstring
+big
+multiline string'''
+"""This is another one"""
+
+# print('Ok, let\'s go!')
+
+# ----- Variables --------------------------------------------------
+
+# -*-*- String -----------------------------------------------------
+
+# my_story = "A Thousand Splendid Suns"
+# print(my_story)
+
+# -*-*- Number -----------------------------------------------------
+
+# my_grade = 85
+# print(my_grade)
+
+# -*-*- Boolean ----------------------------------------------------
+
+# am_i_young = True
+# print(am_i_young)
+
+# ----- Variable names ---------------------------------------------
+
+# 1. - Variable names must make sense
+# movie_rating = 8.5
+
+# 2. - Python convention is to use lowercase letters
+# my_name = "Ivan Pavlovitch"
+
+# 3. - Python is snake case
+# user_info = "Online"
+
+# 4. - Variable name must start with a letter or _
+# 15street - error
+# go_for_a_walk()
+
+# 5. - Following the pep8 standards
+# to_do = 'Buy Coffee'
+
+# ------------------------------------------------------------
+# ---------------**## Data Types part 1 ##**------------------
+
+"""
+--Data Type--          --Class--                 --Value--
+integers               -> int                     -> 45
+floating point numbers  -> float                    -> 4.5
+booleans               -> bool                    -> True/False
+strings                -> str                     -> "Muslim Helalee"
+list                   -> list                    -> [1, 2, 3]
+dictionary             -> dict                    -> {"user_name": "awesome50", "user_id": 56}
+tuple                  -> tuple                   -> (10, 20, 30)
+set                    -> set                     -> {"cat", 99}
+"""
+
+# *-*-*-*-*--------------- Numbers **************************
+# Integer
+age = 38
+print(age)
+print(type(age))
+
+# Floats
+grade = 8.9
+print(grade)
+print(type(grade))
+
+# *-*-*-*-*--------------- Booleans **************************
+alarm = True
+offline = False
+print(alarm, offline)
+print(type(alarm))
+print(type(offline))
+
+# *-*-*-*-*--------------- Strings **************************
+movie_name = "The good, bad and ugly"
+print(movie_name)
+print(type(movie_name))
+
+# *-*-*-*-*--------------- List ********************************
+# Ordered
+mixed = [1, 2, 3.2, 5.4, True, "Muslim Helalee", [1, 2, 3]]
+# print(mixed)
+# print(type(mixed))
+
+# *-*-*-*-*--------------- Dictionary **************************
+# unordered
+user_info = {"user_name": "awesome50", "user_id": 56}
+# print(user_info)
+# print(type(user_info))
+
+# *-*-*-*-*--------------- Tuple *******************************
+# ordered
+mixed_tuple = (1, 2, 3.2, 5.4, True, "Muslim Helalee", [1, 2, 3])
+# print(mixed_tuple)
+# print(type(mixed_tuple))
+
+
+# *-*-*-*-*--------------- Set *********************************
+# unordered
+mixed_set = {1, 2, 3.2, 5.4, "Python", "Muslim Helalee", 101}
+print(mixed_set)
+print(type(mixed_set))
