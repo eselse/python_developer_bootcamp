@@ -166,3 +166,10 @@ job = "       Programmer   "
 # print("ne" not in address)
 # print("ne" not in address)
 # print("ni" not in address)
+
+
+def multiply(number, by):
+    return number * by
+
+
+print(multiply(by=12, number=10))
